@@ -1,0 +1,35 @@
+/* Comentario */
+body{
+    background: rgb(123,76,156);
+    background: linear-gradient(24deg, rgba(123,76,156,1) 0%, rgba(208,161,161,1) 50%, rgba(170,32,32,1) 100%);
+    font-family:"Geist Mono", monospace;
+}
+
+/*img{
+    height: 400px;
+    Si pongo width en este caso se deformaria
+    border-radius: 10px;
+} */
+ .Sess1{
+    width: 400px;
+    border-radius: 10px;
+ }
+
+ .SessAngry{
+    width: 200px;
+    border-radius: 10px;
+ }
+
+ nav ul{
+    display: flex; /*Lo pone de izq a derecha*/
+    justify-content: center; /*Justificar el contenido despues del display*/
+    background-color: rgba(152, 127, 201, 0.395); /*podria ser una imagen incluso*/
+    font-family: "Fjalla One", sans-serif;
+    font-size: 30px;
+    
+    
+ }
+ nav ul li {
+    list-style: none;
+    margin-right: 50px;
+ }
